@@ -4,7 +4,7 @@ export const RESUME_DATA = {
   name: "Nadiia Kovach",
   initials: "NK",
   location: "Szczecin, Poland, CET",
-  avatarUrl: "cv-n/me.png", // Avatar image from public folder for Github Pages
+  avatarUrl: "https://media.licdn.com/dms/image/v2/C4E03AQFvG6wWyvaPfg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1596190040188?e=1753920000&v=beta&t=lhAEkwKVSF4KKmLLCE7ScNpA1QCZPvhgjAVsexVD2nU", // Avatar image from public folder for Github Pages
   locationLink: "https://www.google.com/maps/place/Szczecin",
   personalWebsiteUrl: "https://telkdev.github.io/cv-n/",
   about: "Creative Marketing Manager / Head of Creative Department",
