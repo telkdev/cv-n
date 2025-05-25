@@ -35,8 +35,9 @@ export default async function Image() {
             textAlign: "center",
           }}
         >
+          {/* RESUME_DATA.avatarUrl */}
           <img
-            src={RESUME_DATA.avatarUrl}
+            src={''}
             alt={RESUME_DATA.name}
             style={{
               width: "150px",
@@ -64,19 +65,6 @@ export default async function Image() {
             }}
           >
             {RESUME_DATA.about}
-          </div>
-          <div
-            style={{
-              display: "flex",
-              marginTop: "2rem",
-              gap: "1rem",
-            }}
-          >
-            {RESUME_DATA.contact.email && RESUME_DATA.personalWebsiteUrl && (
-              <div style={{ fontSize: "1rem", color: "#666" }}>
-                {RESUME_DATA.personalWebsiteUrl}
-              </div>
-            )}
           </div>
         </div>
       </div>

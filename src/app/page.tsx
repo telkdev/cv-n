@@ -39,10 +39,10 @@ export const metadata: Metadata = {
  */
 function getCommandMenuLinks() {
   return [
-    ...RESUME_DATA.contact.social.map((socialMediaLink) => ({
-      url: socialMediaLink.url,
-      title: socialMediaLink.name,
-    })),
+    // ...RESUME_DATA.contact.social.map((socialMediaLink) => ({
+    //   url: socialMediaLink.url,
+    //   title: socialMediaLink.name,
+    // })),
   ];
 }
 
@@ -76,7 +76,7 @@ export default function ResumePage() {
       </section>
 
       <nav className="print:hidden" aria-label="Quick navigation">
-        <CommandMenu links={getCommandMenuLinks()} />
+        {/* <CommandMenu links={getCommandMenuLinks()} /> */}
       </nav>
     </main>
   );

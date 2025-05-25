@@ -34,27 +34,7 @@ function EducationItem({ education }: EducationItemProps) {
   const { school, start, end, degree } = education;
 
   return (
-    <Card>
-      <CardHeader>
-        <div className="flex items-center justify-between gap-x-2 text-base">
-          <h3
-            className="font-semibold leading-none"
-            id={`education-${school.toLowerCase().replace(/\s+/g, "-")}`}
-          >
-            {school}
-          </h3>
-          <EducationPeriod start={start} end={end} />
-        </div>
-      </CardHeader>
-      <CardContent
-        className="mt-2 text-foreground/80 print:text-[12px]"
-        aria-labelledby={`education-${school
-          .toLowerCase()
-          .replace(/\s+/g, "-")}`}
-      >
-        {degree}
-      </CardContent>
-    </Card>
+    <div></div>
   );
 }
 
@@ -77,11 +57,7 @@ export function Education({ education }: EducationListProps) {
         role="feed"
         aria-labelledby="education-section"
       >
-        {education.map((item) => (
-          <article key={item.school} role="article">
-            <EducationItem education={item} />
-          </article>
-        ))}
+        
       </div>
     </Section>
   );

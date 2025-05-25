@@ -1,335 +1,193 @@
 import { GitHubIcon, LinkedInIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
-  name: "Vasyl Hartaver",
-  initials: "VH",
-  location: "Szczecin, Poland, CET",
-  locationLink: "https://www.google.com/maps/place/Szczecin",
-  personalWebsiteUrl: "https://telkdev.github.io/cv/",
-  about:
-    "Detail-oriented Senior Front-end Engineer dedicated to building high-quality products.",
+  name: "Nadiia Kovach",
+  initials: "NK",
+  location: "Ukraine",
+  locationLink: "https://www.google.com/maps/place/Ukraine",
+  about: "Creative Marketing Manager / Head of Creative with expertise in digital marketing and team leadership.",
   summary: (
     <>
-      Experienced Front-end Engineer with 7+ years of expertise in
-      Vue.js(composition, options), Nuxt.js, and JavaScript/TypeScript
-      ecosystems. Specializing in high-performance web applications, scalable UI
-      architecture (DDD, Feature-Sliced Design), and SEO & accessibility
-      (WCAG/ADA compliance). Proficient in full-stack development using Node.js,
-      GraphQL, and PostgreSQL. Strong background in CI/CD pipelines,
-      unit/integration testing (Vitest/Jest), and agile methodologies.
-      Passionate about optimizing web performance, improving user experience,
-      and collaborating in cross-functional teams.{" "}
-      <b>Notice period - 1 week. English level - C1.</b>
+      A results-driven and creative professional with nearly 7 years of experience leading teams and managing projects in the digital marketing space. 
+      Specializes in transforming market insights into compelling creative concepts and executing them across digital platforms. 
+      Skilled at guiding talented teams to deliver high-quality content that not only looks great but also aligns with business objectives and client expectations.
     </>
   ),
-  avatarUrl:
-    "https://avatars.githubusercontent.com/u/43547844?s=400&u=7d932451c3af40fca22ecf206709ae006f5a1dd1&v=4",
   contact: {
-    email: "vhartaver@gmail.com",
-    tel: "+48452503354",
-    social: [
-      {
-        name: "GitHub",
-        url: "https://github.com/telkdev",
-        icon: GitHubIcon,
-      },
-      {
-        name: "LinkedIn",
-        url: "https://www.linkedin.com/in/vasyl-hartaver-12b06b180/",
-        icon: LinkedInIcon,
-      },
-    ],
+    email: "nadiakovachwork@gmail.com",
+    tel: "+380506207993",
+    social: [] // Can be populated when social media links are available
   },
-  education: [
-    {
-      school: "MSU",
-      degree: "Bachelor's Degree",
-      start: "2014",
-      end: "2018",
-    },
-  ],
   work: [
     {
-      company: "EyeC GmbH",
-      link: "https://https://www.eyec.com/",
-      location: "Germany",
-      badges: [
-        "Vue.js",
-        "TypeScript",
-        "GraphQL",
-        "Scss",
-        "Vitest",
-        "Leaflet",
-        "Pinia",
-      ],
-      title: "Senior Front-end Engineer",
-      start: "Oct 2022",
-      end: null,
-      description: (
-        <>
-          Engineered a high-performance web application for print inspection
-          systems using Vue.js, significantly enhancing system maintainability
-          and modularity while ensuring 97% test coverage to minimize production
-          bugs.
-          <ul className="list-inside list-disc">
-            <li>
-              Integrated Feature-Sliced Design (FSD) into project structure,
-              enhancing scalability, maintainability, and modularity while
-              reducing tech debt.
-            </li>
-            <li>
-              Led migration from Vue 2 (Options API) to Vue 3 (Composition API),
-              improving performance, developer experience (DX), and code
-              maintainability.
-            </li>
-            <li>
-              Designed and implemented a state machine for PDF comparison,
-              ensuring efficient document processing and improved user
-              experience.
-            </li>
-            <li>
-              Increased page load speed by 40% by implementing virtual scrolling
-              with dynamic item height calculation, optimizing UX for large
-              datasets.
-            </li>
-            <li>
-              Optimized GraphQL API integration, reducing payload size by 35%
-              and improving response time for faster data retrieval.
-            </li>
-            <li>
-              Achieved 97% test coverage with unit and integration tests
-              (Vitest, Jest), decreasing production bugs by 50% and improving
-              code reliability.
-            </li>
-            <li>
-              Developed custom NPM packages for cross-project code reuse,
-              enhancing efficiency and reducing redundancy.
-            </li>
-            <li>
-              Implemented performance monitoring and profiling tools
-              (Lighthouse, Web Vitals) to ensure high Google PageSpeed scores
-              (90+) and better SEO rankings.
-            </li>
-            <li>
-              Improved WCAG 2.1 accessibility compliance, making the application
-              more inclusive and user-friendly.
-            </li>
-          </ul>
-        </>
-      ),
-    },
-    {
-      company: "MOST Programming",
-      link: "https://most-us.com/",
-      location: "USA",
-      badges: ["Vue.js", "Nuxt.js", "TypeScript", "Node.js", "Tailwind CSS"],
-      title: "Full Stack Developer",
-      start: "Dec 2021",
-      end: "Oct 2022",
-      description: (
-        <>
-          {" "}
-          Successfully transitioned from front-end to full-stack development
-          while managing various projects.
-          <ul className="list-inside list-disc">
-            <li>
-              Architected the front-end from scratch using Clean Architecture
-              (DDD) and Vue 3, ensuring scalability and maintainability.
-            </li>
-            <li>
-              Implemented advanced design patterns (Adapter, Command, Dependency
-              Injection) to improve code modularity and reusability.
-            </li>
-            <li>
-              Improved Webpack configuration, reducing bundle size and improving
-              page load speeds (lazy loading, tree shaking, and code splitting).
-            </li>
-            <li>
-              Implementing system-wide monitoring and security improvements
-            </li>
-            <li>
-              Collaborated closely with UX designers and back-end engineers,
-              ensuring seamless integration between front-end and API layers.
-            </li>
-          </ul>
-        </>
-      ),
-    },
-    {
-      company: "WorkConsult",
+      company: "Search Feed / RSoC",
       link: "",
-      location: "Ukraine",
-      badges: ["Vue.js", "React", "TypeScript", "Nuxt.js", "Node.js", "PHP"],
-      title: "Full Stack Developer",
-      start: "Apr 2021",
-      end: "Dec 2021",
-      description: (
-        <>
-          Developed and maintained web applications for clients in various
-          industries, created custom CRM system.
-          <ul className="list-inside list-disc">
-            <li>
-              Refactored a legacy monolithic application into a modular
-              microservices architecture using Vue 2, improving scalability and
-              maintainability.
-            </li>
-            <li>
-              Developed and enhanced UI components, ensuring consistency and
-              responsiveness across devices.
-            </li>
-            <li>
-              Enhanced front-end performance, reducing load times and improving
-              UX.
-            </li>
-          </ul>
-        </>
-      ),
-    },
-    {
-      company: "ThinkMobiles",
-      link: "https://thinkmobiles.com/",
-      location: "Ukraine",
-      badges: ["Vue.js", "CSS", "Node.js", "HTML", "Figma"],
-      title: "Front-end Developer",
-      start: "Sep 2019",
-      end: "Apr 2021",
-      description: (
-        <>
-          As a solo front-end developer, I was responsible for building custom
-          web applications from scratch. For every project I put emphasis on
-          performance, accessibility and maintainability.
-          <ul className="list-inside list-disc">
-            <li>
-              Built the front-end architecture from scratch using Vue.js and
-              vanilla JavaScript, ensuring a scalable and maintainable codebase.
-            </li>
-            <li>
-              Collaborated with UX designers, back-end engineers, and product
-              teams to refine UI/UX, enhancing user experience.
-            </li>
-            <li>
-              Implemented accessibility best practices (WCAG), improving
-              usability for diverse users using WAVE evaluation tools.
-            </li>
-            <li>
-              Translated complex UI/UX elements and animations into
-              high-quality, reusable HTML and CSS components.
-            </li>
-          </ul>
-        </>
-      ),
-    },
-    {
-      company: "Freelance - Upwork",
-      link: "https://upwork.com",
-      location: "Ukraine",
+      location: "Remote",
       badges: [
-        "Vue.js",
-        "React",
-        "Node.js",
-        "TypeScript",
-        "Tailwind CSS",
-        "SCSS",
+        "Team Leadership",
+        "Creative Direction",
+        "Digital Marketing",
+        "Performance Analysis",
+        "Market Research"
       ],
-      title: "Front-end Developer",
-      start: "Jan 2018",
-      end: "Sep 2019",
-      description:
-        "Collaborated with clients to build custom web applications, focusing on performance, accessibility, and maintainability.",
+      title: "Creative Marketing Manager / Head of Creative Department",
+      start: "Sep 2020",
+      end: "Present",
+      description: (
+        <>
+          <ul className="list-inside list-disc">
+            <li className="mb-2">
+              <strong>Team Management:</strong>
+              <ul className="list-inside list-disc ml-4">
+                <li>Supervise team of 10 editors and designers</li>
+                <li>Oversee 400+ creative assets monthly</li>
+                <li>Review each creative, provide necessary feedback, and communicate with buyers</li>
+                <li>Monitor asset progress and track key performance indicators (CTR, CPA, CPM, ROAS)</li>
+                <li>Step in as a designer when needed or collaborate closely with a designer to co-develop creative assets</li>
+              </ul>
+            </li>
+            <li className="mb-2">
+              <strong>Market Research & Analysis:</strong>
+              <ul className="list-inside list-disc ml-4">
+                <li>Use spy services (Pipiads, AdHeart, Anstrex) for market research and reference collection</li>
+                <li>Conduct comprehensive market category analysis to develop and refine creative strategies</li>
+                <li>Research users&apos; pain points and needs</li>
+                <li>Conduct competitor analysis and market research</li>
+                <li>Prepare and deliver presentations to clients</li>
+              </ul>
+            </li>
+            <li className="mb-2">
+              <strong>Creative Process Management:</strong>
+              <ul className="list-inside list-disc ml-4">
+                <li>Generate and present creative ideas for brands, focusing on banners and videos for Facebook and TikTok</li>
+                <li>Develop and supervise briefs for UGC actors (Ukrainian and English)</li>
+                <li>Control the outcome of shoots and overall creative production</li>
+                <li>Conduct thorough reviews and provide final approvals for creative content</li>
+                <li>Assess the performance of creative content on social platforms</li>
+                <li>Identify critical categories and metrics to evaluate creative effectiveness</li>
+              </ul>
+            </li>
+            <li className="mb-2">
+              <strong>Management & Leadership:</strong>
+              <ul className="list-inside list-disc ml-4">
+                <li>Developed work guidelines for actors and creative team</li>
+                <li>Prepare quarterly reports to evaluate team performance</li>
+                <li>Develop and maintain individual growth plans for team members</li>
+                <li>Act as team advocate at leadership level</li>
+                <li>Organize and coordinate internal workflows</li>
+                <li>Conduct one-on-one meetings for performance feedback</li>
+                <li>Collaborate with HR on employee progress tracking</li>
+                <li>Implemented internal time-tracking system using ClickUp</li>
+              </ul>
+            </li>
+            <li>
+              <strong>Content Creation:</strong>
+              <ul className="list-inside list-disc ml-4">
+                <li>Craft Ad Copy for Facebook posts</li>
+                <li>Generate text for advertising creatives on TikTok and Facebook</li>
+                <li>Lead brainstorming sessions for various categories</li>
+              </ul>
+            </li>
+          </ul>
+        </>
+      )
     },
+    {
+      company: "Creative Services",
+      link: "",
+      location: "Volunteer Work",
+      badges: [
+        "Video Editing",
+        "UI/UX Design",
+        "Adobe Creative Suite",
+        "Figma",
+        "Client Communication"
+      ],
+      title: "Video Editor & UI/UX Designer",
+      start: "2023",
+      end: "Present",
+      description: (
+        <>
+          <ul className="list-inside list-disc">
+            <li>
+              <strong>Video Editing:</strong>
+              <ul className="list-inside list-disc ml-4">
+                <li>Collaborate with clients to edit and deliver high-quality videos</li>
+                <li>Partner with clients to understand their vision and translate it into compelling content</li>
+                <li>Edit raw footage, incorporating transitions, graphics, and sound effects</li>
+                <li>Apply color correction, grading, and LUTs</li>
+                <li>Demonstrate flexibility in incorporating client feedback</li>
+              </ul>
+            </li>
+            <li>
+              <strong>UI/UX Design:</strong>
+              <ul className="list-inside list-disc ml-4">
+                <li>Create wireframes, mockups, and prototypes</li>
+                <li>Design user interfaces for websites and mobile applications</li>
+                <li>Utilize Figma for designing, prototyping, and collaboration</li>
+                <li>Focus on usability and aesthetic appeal</li>
+                <li>Provide ongoing support and design revisions</li>
+              </ul>
+            </li>
+          </ul>
+        </>
+      )
+    }
   ],
   skills: [
-    "JavaScript, 7y / TypeScript, 7y",
-    "Vue.js, 7y",
-    "Nuxt.js, 5y",
-    "CSS/Scss/Tailwind CSS, 7y",
-    "Node.js, 4y",
-    "Express.js, 4y",
-    "GraphQL/Apollo Gateway, 5y",
-    "React, 2y / Next.js, 2y",
-    "Docker, 2y",
-    "Svelte, 2y",
-    "PostgreSQL, 4y",
-    "MongoDB, 3y",
-    "Figma(creating designs), 3y",
-    "Design Systems/Architecture",
-    "Clean Code",
-    "Domain Driven Design",
-    "Vitest/Jest, 4y",
-    "Ionic, 4y",
-    "Quasar, 5y",
-    "Bulma, 5y",
-    "Bootstrap, 5y",
-    "Rest API 5y",
-    "Vite/Webpack, 5y",
-    "CI/CD (GitHub Actions, GitLab CI)",
-    "WebSockets",
-    "Semantic HTML",
-    "WCAG/ADA",
-    "SEO",
-    "Problem Solving",
-    "Agile/Scrum",
-    "Teamwork",
-    "Communication",
+    // Leadership & Management
+    "Team Leadership",
+    "Project Management",
+    "Creative Direction",
+    "Market Analysis",
+    "Performance Analysis",
+    "Client Communication",
+    "Brainstorming & Ideation",
+    "Digital Marketing",
+    
+    // Creative & Technical
+    "Video Editing",
+    "Video Cutting and Trimming",
+    "Color Correction and Grading",
+    "Transitions and Effects",
+    "LUTs Application",
+    "UI/UX Design",
+    "Wireframing and Prototyping",
+    "Banner Design",
+    
+    // Tools & Software
+    "Adobe Premiere Pro",
+    "Adobe After Effects",
+    "Adobe Illustrator",
+    "Figma",
+    "ClickUp",
+    
+    // Marketing & Analysis
+    "Facebook & TikTok Analytics",
+    "Spy Services (Pipiads, AdHeart, Anstrex)",
+    
+    // Languages
+    "Ukrainian (Native)",
+    "English (C1)"
   ],
   projects: [
     {
-      title: "Newerest",
-      techStack: [
-        "TypeScript",
-        "Vue.js",
-        "Nuxt.js",
-        "Tailwind CSS",
-        "Node.js",
-        "Strapi",
-        "SEO",
-      ],
-      description:
-        "Blog about history, technologies and other stuff that we like. For now it is a pet project where I can try out interesting stuff for me. Currently rewriting it in Nuxt, Nest, Strapi to manage content more efficiently.",
-      link: {
-        label: "newerest.space/",
-        href: "https://newerest.space/",
-      },
+      title: "Creative Team Workflow Optimization",
+      techStack: ["ClickUp", "Process Automation", "Team Management"],
+      description: "Developed and implemented an internal time-tracking system for the creative team, including automation using ClickUp to streamline reporting and improve workflow efficiency.",
     },
     {
-      title: "Platinum Dental",
-      techStack: ["TypeScript", "Nuxt.js", "Tailwind CSS"],
-      description:
-        "Project was established for my friend as a gift in honor of the clinic opening. The feature of the project is telegram bot for doctor appointment scheduling.",
-      link: {
-        label: "platinum",
-        href: "https://platinum.biz.ua/",
-      },
+      title: "Affiliate Summit East 2023",
+      techStack: ["Digital Marketing", "Networking", "Performance Marketing"],
+      description: "Attended leading industry conference in New York focused on performance marketing, networking, and digital innovation.",
     },
     {
-      title: "Uafunds",
-      techStack: ["TypeScript", "Nuxt.js", "Tailwind CSS", "Vue.js", "Strapi"],
-      description:
-        "Project aggregator for small volunteer organisations to create and share fundraisers.",
-      link: {
-        label: "uafunds",
-        href: "https://uafunds.org/",
-      },
-    },
-    {
-      title: "Paideia",
-      techStack: ["HTML", "Scss", "JavaScript"],
-      description:
-        "English learning platform with a focus on vocabulary and grammar using AI tools.",
-      link: {
-        label: "paideia",
-        href: "https://paideia.space/",
-      },
-    },
-    {
-      title: "United ukrainians",
-      techStack: ["TypeScript", "Nuxt.js", "Tailwind CSS", "Vue.js"],
-      description:
-        "Project was designed from scratch for the volunteer organisation 'United ukrainians' that was designed to fund some projects with categories.",
-      link: {
-        label: "united-ukrainians",
-        href: "https://united-ukrainians.vercel.app/",
-      },
-    },
+      title: "Telegram GIF Contest 2022",
+      techStack: ["Creative Design", "Animation", "Motion Graphics"],
+      description: "Winner of the Telegram GIF Contest 2022, awarded with a cash prize.",
+    }
   ],
+  education: [
+    // Education details can be added when available
+  ]
 } as const;
