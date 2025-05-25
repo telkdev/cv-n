@@ -72,13 +72,6 @@ function ContactButtons({ contact, personalWebsiteUrl }: ContactButtonsProps) {
           label="Email"
         />
       )}
-      {contact.tel && (
-        <SocialButton
-          href={`tel:${contact.tel}`}
-          icon={PhoneIcon}
-          label="Phone"
-        />
-      )}
       {/* social links */}
     </div>
   );
@@ -117,14 +110,6 @@ function PrintContact({ contact, personalWebsiteUrl }: PrintContactProps) {
           <span aria-hidden="true">/</span>
         </>
       )}
-      {contact.tel && (
-        <a
-          className="underline hover:text-foreground/70"
-          href={`tel:${contact.tel}`}
-        >
-          {contact.tel}
-        </a>
-      )}
     </div>
   );
 }
@@ -151,13 +136,18 @@ export function Header() {
           locationLink={RESUME_DATA.locationLink}
         />
 
+        <ContactButtons
+          contact={RESUME_DATA.contact}
+          personalWebsiteUrl={RESUME_DATA.personalWebsiteUrl}
+        />
+
       </div>
 
       <Avatar className="size-28" aria-hidden="true">
-        {/* <AvatarImage
+        <AvatarImage
           alt={`${RESUME_DATA.name}'s profile picture`}
           src={RESUME_DATA.avatarUrl}
-        /> */}
+        />
         <AvatarFallback>{RESUME_DATA.initials}</AvatarFallback>
       </Avatar>
     </header>

@@ -49,7 +49,7 @@ interface WorkPeriodProps {
 function WorkPeriod({ start, end }: WorkPeriodProps) {
   return (
     <div
-      className="text-sm tabular-nums text-gray-500"
+      className="text-xs tabular-nums text-gray-500"
       aria-label={`Employment period: ${start} to ${end ?? "Present"}`}
     >
       {start} - {end ?? "Present"}
@@ -59,7 +59,7 @@ function WorkPeriod({ start, end }: WorkPeriodProps) {
 
 function Location({ location }: { location: string }) {
   return (
-    <div className="text-sm text-gray-500" aria-label={`Location: ${location}`}>
+    <div className="text-xs text-gray-500" aria-label={`Location: ${location}`}>
       {location}
     </div>
   );
