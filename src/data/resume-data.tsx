@@ -1,5 +1,3 @@
-import { GitHubIcon, LinkedInIcon } from "@/components/icons";
-
 export const RESUME_DATA = {
   name: "Nadiia Kovach",
   initials: "NK",
@@ -311,7 +309,7 @@ export const RESUME_DATA = {
         "Developed and implemented an internal time-tracking system for the creative team, including automation using ClickUp to streamline reporting and improve workflow efficiency.",
     },
     {
-      title: "Affiliate Summit East 2023",
+      title: "Affiliate Summit East 2024",
       techStack: ["Digital Marketing", "Networking", "Performance Marketing"],
       description:
         "Attended leading industry conference in New York focused on performance marketing, networking, and digital innovation.",
