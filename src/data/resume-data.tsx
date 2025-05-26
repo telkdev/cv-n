@@ -4,7 +4,8 @@ export const RESUME_DATA = {
   name: "Nadiia Kovach",
   initials: "NK",
   location: "Szczecin, Poland, CET",
-  avatarUrl: "https://media.licdn.com/dms/image/v2/C4E03AQFvG6wWyvaPfg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1596190040188?e=1753920000&v=beta&t=lhAEkwKVSF4KKmLLCE7ScNpA1QCZPvhgjAVsexVD2nU", // Avatar image from public folder for Github Pages
+  avatarUrl:
+    "https://media.licdn.com/dms/image/v2/C4E03AQFvG6wWyvaPfg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1596190040188?e=1753920000&v=beta&t=lhAEkwKVSF4KKmLLCE7ScNpA1QCZPvhgjAVsexVD2nU", // Avatar image from public folder for Github Pages
   locationLink: "https://www.google.com/maps/place/Szczecin",
   personalWebsiteUrl: "https://telkdev.github.io/cv-n/",
   about: "Creative Marketing Manager / Head of Creative Department",
@@ -27,16 +28,18 @@ export const RESUME_DATA = {
       company: "Ad2Lynx",
       link: "",
       location: "Remote",
-      badges: ['Creative Direction', 'Team Leadership', 'Digital Marketing'],
+      badges: ["Creative Direction", "Team Leadership", "Digital Marketing"],
       title: "Creative Marketing Manager / Head of Creative Department",
       start: "Sep 2020",
       end: "Present",
       description: (
         <>
-          <span className="font-bold mb-2 underline block">Search Feed / RSoC</span>
+          <span className="mb-2 block font-bold underline">
+            Search Feed / RSoC
+          </span>
           <ul className="space-y-3">
             <li>
-              <strong className="font-medium mb-2 block">
+              <strong className="mb-2 block font-medium">
                 Team Management
               </strong>
               <ul className="ml-4 list-inside list-disc">
@@ -56,7 +59,7 @@ export const RESUME_DATA = {
               </ul>
             </li>
             <li>
-              <strong className="font-medium mb-2 block">
+              <strong className="mb-2 block font-medium">
                 Market Research & Analysis
               </strong>
               <ul className="ml-4 list-inside list-disc">
@@ -73,7 +76,7 @@ export const RESUME_DATA = {
               </ul>
             </li>
             <li>
-              <strong className="font-medium mb-2 block">
+              <strong className="mb-2 block font-medium">
                 Idea Generation
               </strong>
               <ul className="ml-4 list-inside list-disc">
@@ -85,10 +88,10 @@ export const RESUME_DATA = {
             </li>
           </ul>
 
-          <span className="font-bold mb-2 underline block mt-4">Brands</span>
+          <span className="mb-2 mt-4 block font-bold underline">Brands</span>
           <ul className="space-y-3">
             <li>
-              <strong className="font-medium mb-2 block">
+              <strong className="mb-2 block font-medium">
                 Market Analysis
               </strong>
               <ul className="ml-4 list-inside list-disc">
@@ -97,67 +100,117 @@ export const RESUME_DATA = {
               </ul>
             </li>
             <li>
-              <strong className="font-medium mb-2 block">
+              <strong className="mb-2 block font-medium">
                 Creative Process Management
               </strong>
               <ul className="ml-4 list-inside list-disc">
-                <li>Generate and present creative ideas for brands, focusing on banners and videos for Facebook and TikTok</li>
-                <li>Develop and supervise briefs for UGC actors (Ukrainian and English), communicate with them</li>
-                <li>Control the outcome of shoots and overall creative production</li>
-                <li>Step in as a designer when needed or collaborate closely with a designer to co-develop creative assets</li>
-                <li>Conduct thorough reviews and provide final approvals for creative content prior to client delivery</li>
+                <li>
+                  Generate and present creative ideas for brands, focusing on
+                  banners and videos for Facebook and TikTok
+                </li>
+                <li>
+                  Develop and supervise briefs for UGC actors (Ukrainian and
+                  English), communicate with them
+                </li>
+                <li>
+                  Control the outcome of shoots and overall creative production
+                </li>
+                <li>
+                  Step in as a designer when needed or collaborate closely with
+                  a designer to co-develop creative assets
+                </li>
+                <li>
+                  Conduct thorough reviews and provide final approvals for
+                  creative content prior to client delivery
+                </li>
               </ul>
             </li>
             <li>
-              <strong className="font-medium mb-2 block">
+              <strong className="mb-2 block font-medium">
                 Creative Analysis
               </strong>
               <ul className="ml-4 list-inside list-disc">
-                <li>Assess the performance of creative content on Facebook and TikTok platforms</li>
-                <li>Identify critical categories and metrics to evaluate creative effectiveness</li>
+                <li>
+                  Assess the performance of creative content on Facebook and
+                  TikTok platforms
+                </li>
+                <li>
+                  Identify critical categories and metrics to evaluate creative
+                  effectiveness
+                </li>
               </ul>
             </li>
             <li>
-              <strong className="font-medium mb-2 block">
-                Copywriting
-              </strong>
+              <strong className="mb-2 block font-medium">Copywriting</strong>
               <ul className="ml-4 list-inside list-disc">
                 <li>Craft Ad Copy for Facebook posts</li>
-                <li>Generate text for advertising creatives (videos, banners) on TikTok and Facebook</li>
+                <li>
+                  Generate text for advertising creatives (videos, banners) on
+                  TikTok and Facebook
+                </li>
               </ul>
             </li>
           </ul>
 
-          <span className="font-bold mb-2 underline block mt-4">Manager Responsibilities</span>
+          <span className="mb-2 mt-4 block font-bold underline">
+            Manager Responsibilities
+          </span>
           <ul className="space-y-3">
             <li>
-              <strong className="font-medium mb-2 block">
+              <strong className="mb-2 block font-medium">
                 Team Development
               </strong>
               <ul className="ml-4 list-inside list-disc">
                 <li>Developed work guidelines for actors and creative team</li>
-                <li>Developed and maintain individual growth plans for team members</li>
-                <li>Act as an advocate for the team, representing their interests at both the team and leadership levels</li>
-                <li>Conduct one-on-one meetings with team members to provide performance feedback, address concerns, and support professional development</li>
+                <li>
+                  Developed and maintain individual growth plans for team
+                  members
+                </li>
+                <li>
+                  Act as an advocate for the team, representing their interests
+                  at both the team and leadership levels
+                </li>
+                <li>
+                  Conduct one-on-one meetings with team members to provide
+                  performance feedback, address concerns, and support
+                  professional development
+                </li>
               </ul>
             </li>
             <li>
-              <strong className="font-medium mb-2 block">
+              <strong className="mb-2 block font-medium">
                 Performance Management
               </strong>
               <ul className="ml-4 list-inside list-disc">
-                <li>Prepare quarterly reports to evaluate team performance and effectiveness</li>
-                <li>Collaborate with HR on a monthly basis to track employee progress and discuss development goals</li>
-                <li>Step in to support the creative team directly during periods of high workload, ensuring project continuity and quality</li>
+                <li>
+                  Prepare quarterly reports to evaluate team performance and
+                  effectiveness
+                </li>
+                <li>
+                  Collaborate with HR on a monthly basis to track employee
+                  progress and discuss development goals
+                </li>
+                <li>
+                  Step in to support the creative team directly during periods
+                  of high workload, ensuring project continuity and quality
+                </li>
               </ul>
             </li>
             <li>
-              <strong className="font-medium mb-2 block">
+              <strong className="mb-2 block font-medium">
                 Workflow Optimization
               </strong>
               <ul className="ml-4 list-inside list-disc">
-                <li>Organize and coordinate internal workflows, including task and responsibility allocation, while ensuring the quality and timeliness of deliverables</li>
-                <li>Developed and implemented an internal time-tracking system for the team, including automation using ClickUp to streamline reporting and improve workflow efficiency</li>
+                <li>
+                  Organize and coordinate internal workflows, including task and
+                  responsibility allocation, while ensuring the quality and
+                  timeliness of deliverables
+                </li>
+                <li>
+                  Developed and implemented an internal time-tracking system for
+                  the team, including automation using ClickUp to streamline
+                  reporting and improve workflow efficiency
+                </li>
               </ul>
             </li>
           </ul>
@@ -169,10 +222,7 @@ export const RESUME_DATA = {
       company: "ThinkMobiles",
       link: "",
       location: "Uzghorod, Ukraine",
-      badges: [
-        "Copywriting (English)",
-        "Marketing research",
-      ],
+      badges: ["Copywriting (English)", "Marketing research"],
       title: "Copywriter / Marketing Researcher",
       start: "Jan 2017",
       end: "Aug 2020",
@@ -180,29 +230,45 @@ export const RESUME_DATA = {
         <>
           <ul className="space-y-3">
             <li>
-              <strong className="font-medium mb-2 block">
+              <strong className="mb-2 block font-medium">
                 Content Creation
               </strong>
               <ul className="ml-4 list-inside list-disc">
-                <li>Created website copy for ThinkMobiles, tailored to target audiences and aligned with brand voice and messaging</li>
-                <li>Built and managed a Quora account focused on history and technology, reaching nearly 500,000 reads through engaging, research-based content</li>
-                <li>Wrote promotional and UX-focused copy for an internal project—a discount coupon website for pizzerias</li>
+                <li>
+                  Created website copy for ThinkMobiles, tailored to target
+                  audiences and aligned with brand voice and messaging
+                </li>
+                <li>
+                  Built and managed a Quora account focused on history and
+                  technology, reaching nearly 500,000 reads through engaging,
+                  research-based content
+                </li>
+                <li>
+                  Wrote promotional and UX-focused copy for an internal
+                  project—a discount coupon website for pizzerias
+                </li>
               </ul>
             </li>
             <li>
-              <strong className="font-medium mb-2 block">
+              <strong className="mb-2 block font-medium">
                 Quality Assurance
               </strong>
               <ul className="ml-4 list-inside list-disc">
-                <li>Proofread and edited content produced by team members to ensure clarity, consistency, and high editorial standards</li>
+                <li>
+                  Proofread and edited content produced by team members to
+                  ensure clarity, consistency, and high editorial standards
+                </li>
               </ul>
             </li>
             <li>
-              <strong className="font-medium mb-2 block">
+              <strong className="mb-2 block font-medium">
                 Market Research
               </strong>
               <ul className="ml-4 list-inside list-disc">
-                <li>Conducted competitor research and gathered marketing insights to support strategic planning and content development</li>
+                <li>
+                  Conducted competitor research and gathered marketing insights
+                  to support strategic planning and content development
+                </li>
               </ul>
             </li>
           </ul>
@@ -251,16 +317,20 @@ export const RESUME_DATA = {
         "Attended leading industry conference in New York focused on performance marketing, networking, and digital innovation.",
     },
     {
+      title: "Corporate New Year Gifts Design Initiative",
+      techStack: [
+        "Project Management",
+        "Design Coordination",
+        "Production Management",
+      ],
+      description:
+        "Co-developed the design of branded corporate New Year gifts for employees (2024–2025).",
+    },
+    {
       title: "Telegram GIF Contest 2022",
       techStack: ["Creative Design", "Animation", "Motion Graphics"],
       description:
         "One of the winners of the Telegram GIF Contest 2022, awarded with a cash prize.",
-    },
-    {
-      title: "Corporate New Year Gifts Design Initiative",
-      techStack: ["Project Management", "Design Coordination", "Production Management"],
-      description:
-        "Co-developed the design of branded corporate New Year gifts for employees (2024–2025). Led a team of three to successfully organize the production of a five-item gift set in under a month, enhancing team recognition and company culture.",
     },
   ],
   education: [
