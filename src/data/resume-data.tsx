@@ -254,7 +254,13 @@ export const RESUME_DATA = {
       title: "Telegram GIF Contest 2022",
       techStack: ["Creative Design", "Animation", "Motion Graphics"],
       description:
-        "Winner of the Telegram GIF Contest 2022, awarded with a cash prize.",
+        "One of the winners of the Telegram GIF Contest 2022, awarded with a cash prize.",
+    },
+    {
+      title: "Corporate New Year Gifts Design Initiative",
+      techStack: ["Project Management", "Design Coordination", "Production Management"],
+      description:
+        "Co-developed the design of branded corporate New Year gifts for employees (2024–2025). Led a team of three to successfully organize the production of a five-item gift set in under a month, enhancing team recognition and company culture.",
     },
   ],
   education: [
