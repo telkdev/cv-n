@@ -11,10 +11,8 @@ export const RESUME_DATA = {
     <>
       A creative and results-driven professional with nearly 7 years of
       experience in digital marketing, leading teams and managing projects from
-      concept to execution. Known for turning market insights into compelling
-      campaigns across digital platforms. Skilled at guiding teams to deliver
-      high-quality content that aligns with business goals and exceeds client
-      expectations. <b>English level - C1.</b>
+      concept to execution.
+      <br /> <b>English level - C1.</b>
     </>
   ),
   contact: {
@@ -26,25 +24,22 @@ export const RESUME_DATA = {
       company: "Ad2Lynx",
       link: "",
       location: "Remote",
-      badges: ["Creative Direction", "Team Leadership", "Digital Marketing"],
-      title: "Creative Marketing Manager / Head of Creative Department",
+      badges: ["Digital Marketing" , "Project Management", "TikTok/Facebook"],
+      title: "Creative Marketing Manager",
       start: "Sep 2020",
       end: "Present",
       description: (
         <>
-          <span className="mb-2 block font-bold underline">
-            Search Feed / RSoC
-          </span>
           <ul className="space-y-3">
             <li>
-              <strong className="mb-2 block font-medium">
+              <strong className="mb-2 block">
                 Team Management
               </strong>
               <ul className="ml-4 list-inside list-disc">
                 <li>Supervise team of 10 editors and designers</li>
                 <li>
                   Oversee 400+ creatives monthly, provide necessary feedback,
-                  and communicate with buyers
+                  and communicate with media buyers
                 </li>
                 <li>
                   Monitor asset progress and track key performance indicators
@@ -54,10 +49,19 @@ export const RESUME_DATA = {
                   Step in as a designer when needed or collaborate closely with
                   a designer to co-develop creative assets
                 </li>
+                <li>
+                  Develop and supervise briefs for UGC actors (Ukrainian and
+                  English), communicate with them
+                </li>
+                <li>
+                  Control the outcome of shoots and overall creative production,
+                  provide final approvals for creative content prior to client
+                  delivery
+                </li>
               </ul>
             </li>
             <li>
-              <strong className="mb-2 block font-medium">
+              <strong className="mb-2 block">
                 Market Research & Analysis
               </strong>
               <ul className="ml-4 list-inside list-disc">
@@ -74,74 +78,14 @@ export const RESUME_DATA = {
               </ul>
             </li>
             <li>
-              <strong className="mb-2 block font-medium">
-                Idea Generation
+              <strong className="mb-2 block">
+                Ideas Generation
               </strong>
               <ul className="ml-4 list-inside list-disc">
                 <li>
                   Conduct brainstorming sessions with the team to generate new
                   ideas for various categories
                 </li>
-              </ul>
-            </li>
-          </ul>
-
-          <span className="mb-2 mt-4 block font-bold underline">Brands</span>
-          <ul className="space-y-3">
-            <li>
-              <strong className="mb-2 block font-medium">
-                Market Analysis
-              </strong>
-              <ul className="ml-4 list-inside list-disc">
-                <li>Conduct competitor analysis and market research</li>
-                <li>Prepare and deliver presentations to clients</li>
-              </ul>
-            </li>
-            <li>
-              <strong className="mb-2 block font-medium">
-                Creative Process Management
-              </strong>
-              <ul className="ml-4 list-inside list-disc">
-                <li>
-                  Generate and present creative ideas for brands, focusing on
-                  banners and videos for Facebook and TikTok
-                </li>
-                <li>
-                  Develop and supervise briefs for UGC actors (Ukrainian and
-                  English), communicate with them
-                </li>
-                <li>
-                  Control the outcome of shoots and overall creative production
-                </li>
-                <li>
-                  Step in as a designer when needed or collaborate closely with
-                  a designer to co-develop creative assets
-                </li>
-                <li>
-                  Conduct thorough reviews and provide final approvals for
-                  creative content prior to client delivery
-                </li>
-              </ul>
-            </li>
-            <li>
-              <strong className="mb-2 block font-medium">
-                Creative Analysis
-              </strong>
-              <ul className="ml-4 list-inside list-disc">
-                <li>
-                  Assess the performance of creative content on Facebook and
-                  TikTok platforms
-                </li>
-                <li>
-                  Identify critical categories and metrics to evaluate creative
-                  effectiveness
-                </li>
-              </ul>
-            </li>
-            <li>
-              <strong className="mb-2 block font-medium">Copywriting</strong>
-              <ul className="ml-4 list-inside list-disc">
-                <li>Craft Ad Copy for Facebook posts</li>
                 <li>
                   Generate text for advertising creatives (videos, banners) on
                   TikTok and Facebook
@@ -149,41 +93,42 @@ export const RESUME_DATA = {
               </ul>
             </li>
           </ul>
-
-          <span className="mb-2 mt-4 block font-bold underline">
-            Manager Responsibilities
-          </span>
+        </>
+      ),
+    },
+    {
+      company: "",
+      link: "",
+      location: "",
+      badges: [],
+      title: "Head of Creative Department",
+      start: "",
+      end: "",
+      description: (
+        <>
           <ul className="space-y-3">
             <li>
-              <strong className="mb-2 block font-medium">
-                Team Development
+              <strong className="mb-2 block">
+                Team Leadership
               </strong>
               <ul className="ml-4 list-inside list-disc">
                 <li>Developed work guidelines for actors and creative team</li>
-                <li>
-                  Developed and maintain individual growth plans for team
-                  members
-                </li>
-                <li>
-                  Act as an advocate for the team, representing their interests
-                  at both the team and leadership levels
-                </li>
                 <li>
                   Conduct one-on-one meetings with team members to provide
                   performance feedback, address concerns, and support
                   professional development
                 </li>
-              </ul>
-            </li>
-            <li>
-              <strong className="mb-2 block font-medium">
-                Performance Management
-              </strong>
-              <ul className="ml-4 list-inside list-disc">
                 <li>
                   Prepare quarterly reports to evaluate team performance and
                   effectiveness
                 </li>
+              </ul>
+            </li>
+            <li>
+              <strong className="mb-2 block">
+                HR Collaboration
+              </strong>
+              <ul className="ml-4 list-inside list-disc">
                 <li>
                   Collaborate with HR on a monthly basis to track employee
                   progress and discuss development goals
@@ -195,8 +140,8 @@ export const RESUME_DATA = {
               </ul>
             </li>
             <li>
-              <strong className="mb-2 block font-medium">
-                Workflow Optimization
+              <strong className="mb-2 block">
+                Workflow Management
               </strong>
               <ul className="ml-4 list-inside list-disc">
                 <li>
@@ -228,9 +173,9 @@ export const RESUME_DATA = {
         <>
           <ul className="space-y-3">
             <li>
-              <strong className="mb-2 block font-medium">
+              <b className="mb-2 block">
                 Content Creation
-              </strong>
+              </b>
               <ul className="ml-4 list-inside list-disc">
                 <li>
                   Created website copy for ThinkMobiles, tailored to target
@@ -248,7 +193,7 @@ export const RESUME_DATA = {
               </ul>
             </li>
             <li>
-              <strong className="mb-2 block font-medium">
+              <strong className="mb-2 block">
                 Quality Assurance
               </strong>
               <ul className="ml-4 list-inside list-disc">
@@ -259,13 +204,62 @@ export const RESUME_DATA = {
               </ul>
             </li>
             <li>
-              <strong className="mb-2 block font-medium">
+              <strong className="mb-2 block">
                 Market Research
               </strong>
               <ul className="ml-4 list-inside list-disc">
                 <li>
                   Conducted competitor research and gathered marketing insights
                   to support strategic planning and content development
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </>
+      ),
+    },
+    {
+      company: "Achievements",
+      link: "",
+      location: "",
+      badges: ["Creative Projects", "Professional Development"],
+      title: "",
+      start: "",
+      end: "",
+      description: (
+        <>
+          <ul className="space-y-3">
+            <li>
+              <strong className="mb-2 block">
+                Process Improvements
+              </strong>
+              <ul className="ml-4 list-inside list-disc">
+                <li>
+                  Developed and implemented an internal time-tracking system for the creative team, including automation using ClickUp to streamline reporting and improve workflow efficiency
+                </li>
+              </ul>
+            </li>
+            <li>
+              <strong className="mb-2 block">
+                Professional Development
+              </strong>
+              <ul className="ml-4 list-inside list-disc">
+                <li>
+                  Affiliate Summit East 2024 in NYC - Attended leading industry conference in New York focused on performance marketing, networking, and digital innovation
+                </li>
+              </ul>
+            </li>
+            <li>
+              <strong className="mb-2 block">
+                Creative Initiatives
+              </strong>
+              <ul className="ml-4 list-inside list-disc">
+                <li>
+                  Co-developed the design of branded corporate New Year gifts for
+                  employees (2024–2025)
+                </li>
+                <li>
+                  One of the winners of the Telegram GIF Contest 2022, awarded with a cash prize
                 </li>
               </ul>
             </li>
@@ -301,36 +295,7 @@ export const RESUME_DATA = {
     "Facebook & TikTok Analytics",
     "Spy Services (Pipiads, AdHeart, Anstrex)",
   ],
-  projects: [
-    {
-      title: "Creative Team Workflow Optimization",
-      techStack: ["ClickUp", "Process Automation", "Team Management"],
-      description:
-        "Developed and implemented an internal time-tracking system for the creative team, including automation using ClickUp to streamline reporting and improve workflow efficiency.",
-    },
-    {
-      title: "Affiliate Summit East 2024, NYC, USA",
-      techStack: ["Digital Marketing", "Networking", "Performance Marketing"],
-      description:
-        "Attended leading industry conference in New York focused on performance marketing, networking, and digital innovation.",
-    },
-    {
-      title: "Corporate New Year Gifts Design Initiative",
-      techStack: [
-        "Project Management",
-        "Design Coordination",
-        "Production Management",
-      ],
-      description:
-        "Co-developed the design of branded corporate New Year gifts for employees (2024–2025).",
-    },
-    {
-      title: "Telegram GIF Contest 2022",
-      techStack: ["Creative Design", "Animation", "Motion Graphics"],
-      description:
-        "One of the winners of the Telegram GIF Contest 2022, awarded with a cash prize.",
-    },
-  ],
+  projects: [],
   education: [
     // Education details can be added when available
   ],
