@@ -24,7 +24,66 @@ export const RESUME_DATA = {
       company: "Ad2Lynx",
       link: "",
       location: "Remote",
-      badges: ["Digital Marketing" , "Project Management", "TikTok/Facebook"],
+      badges: ["Digital Marketing", "Project Management", "TikTok/Facebook"],
+      title: "Head of Creative Department",
+      start: "Sep 2024",
+      end: "Present",
+
+      description: (
+        <>
+          <ul className="space-y-3">
+            <li>
+              <strong className="mb-2 block">Team Leadership</strong>
+              <ul className="ml-4 list-inside list-disc">
+                <li>Developed work guidelines for actors and creative team</li>
+                <li>
+                  Conduct one-on-one meetings with team members to provide
+                  performance feedback, address concerns, and support
+                  professional development
+                </li>
+                <li>
+                  Prepare quarterly reports to evaluate team performance and
+                  effectiveness
+                </li>
+              </ul>
+            </li>
+            <li>
+              <strong className="mb-2 block">HR Collaboration</strong>
+              <ul className="ml-4 list-inside list-disc">
+                <li>
+                  Collaborate with HR on a monthly basis to track employee
+                  progress and discuss development goals
+                </li>
+                <li>
+                  Step in to support the creative team directly during periods
+                  of high workload, ensuring project continuity and quality
+                </li>
+              </ul>
+            </li>
+            <li>
+              <strong className="mb-2 block">Workflow Management</strong>
+              <ul className="ml-4 list-inside list-disc">
+                <li>
+                  Organize and coordinate internal workflows, including task and
+                  responsibility allocation, while ensuring the quality and
+                  timeliness of deliverables
+                </li>
+                <li>
+                  Developed and implemented an internal time-tracking system for
+                  the team, including automation using ClickUp to streamline
+                  reporting and improve workflow efficiency
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </>
+      ),
+    },
+    {
+      company: "",
+      link: "",
+      location: "",
+      badges: [],
       title: "Creative Marketing Manager",
       start: "Sep 2020",
       end: "Present",
@@ -32,9 +91,7 @@ export const RESUME_DATA = {
         <>
           <ul className="space-y-3">
             <li>
-              <strong className="mb-2 block">
-                Team Management
-              </strong>
+              <strong className="mb-2 block">Team Management</strong>
               <ul className="ml-4 list-inside list-disc">
                 <li>Supervise team of 10 editors and designers</li>
                 <li>
@@ -61,9 +118,7 @@ export const RESUME_DATA = {
               </ul>
             </li>
             <li>
-              <strong className="mb-2 block">
-                Market Research & Analysis
-              </strong>
+              <strong className="mb-2 block">Market Research & Analysis</strong>
               <ul className="ml-4 list-inside list-disc">
                 <li>
                   Use spy services (Pipiads, AdHeart, Anstrex) for market
@@ -78,9 +133,7 @@ export const RESUME_DATA = {
               </ul>
             </li>
             <li>
-              <strong className="mb-2 block">
-                Ideas Generation
-              </strong>
+              <strong className="mb-2 block">Ideas Generation</strong>
               <ul className="ml-4 list-inside list-disc">
                 <li>
                   Conduct brainstorming sessions with the team to generate new
@@ -89,70 +142,6 @@ export const RESUME_DATA = {
                 <li>
                   Generate text for advertising creatives (videos, banners) on
                   TikTok and Facebook
-                </li>
-              </ul>
-            </li>
-          </ul>
-        </>
-      ),
-    },
-    {
-      company: "",
-      link: "",
-      location: "",
-      badges: [],
-      title: "Head of Creative Department",
-      start: "",
-      end: "",
-      description: (
-        <>
-          <ul className="space-y-3">
-            <li>
-              <strong className="mb-2 block">
-                Team Leadership
-              </strong>
-              <ul className="ml-4 list-inside list-disc">
-                <li>Developed work guidelines for actors and creative team</li>
-                <li>
-                  Conduct one-on-one meetings with team members to provide
-                  performance feedback, address concerns, and support
-                  professional development
-                </li>
-                <li>
-                  Prepare quarterly reports to evaluate team performance and
-                  effectiveness
-                </li>
-              </ul>
-            </li>
-            <li>
-              <strong className="mb-2 block">
-                HR Collaboration
-              </strong>
-              <ul className="ml-4 list-inside list-disc">
-                <li>
-                  Collaborate with HR on a monthly basis to track employee
-                  progress and discuss development goals
-                </li>
-                <li>
-                  Step in to support the creative team directly during periods
-                  of high workload, ensuring project continuity and quality
-                </li>
-              </ul>
-            </li>
-            <li>
-              <strong className="mb-2 block">
-                Workflow Management
-              </strong>
-              <ul className="ml-4 list-inside list-disc">
-                <li>
-                  Organize and coordinate internal workflows, including task and
-                  responsibility allocation, while ensuring the quality and
-                  timeliness of deliverables
-                </li>
-                <li>
-                  Developed and implemented an internal time-tracking system for
-                  the team, including automation using ClickUp to streamline
-                  reporting and improve workflow efficiency
                 </li>
               </ul>
             </li>
@@ -173,9 +162,7 @@ export const RESUME_DATA = {
         <>
           <ul className="space-y-3">
             <li>
-              <b className="mb-2 block">
-                Content Creation
-              </b>
+              <b className="mb-2 block">Content Creation</b>
               <ul className="ml-4 list-inside list-disc">
                 <li>
                   Created website copy for ThinkMobiles, tailored to target
@@ -193,9 +180,7 @@ export const RESUME_DATA = {
               </ul>
             </li>
             <li>
-              <strong className="mb-2 block">
-                Quality Assurance
-              </strong>
+              <strong className="mb-2 block">Quality Assurance</strong>
               <ul className="ml-4 list-inside list-disc">
                 <li>
                   Proofread and edited content produced by team members to
@@ -204,9 +189,7 @@ export const RESUME_DATA = {
               </ul>
             </li>
             <li>
-              <strong className="mb-2 block">
-                Market Research
-              </strong>
+              <strong className="mb-2 block">Market Research</strong>
               <ul className="ml-4 list-inside list-disc">
                 <li>
                   Conducted competitor research and gathered marketing insights
@@ -230,36 +213,35 @@ export const RESUME_DATA = {
         <>
           <ul className="space-y-3">
             <li>
-              <strong className="mb-2 block">
-                Process Improvements
-              </strong>
+              <strong className="mb-2 block">Process Improvements</strong>
               <ul className="ml-4 list-inside list-disc">
                 <li>
-                  Developed and implemented an internal time-tracking system for the creative team, including automation using ClickUp to streamline reporting and improve workflow efficiency
+                  Developed and implemented an internal time-tracking system for
+                  the creative team, including automation using ClickUp to
+                  streamline reporting and improve workflow efficiency
                 </li>
               </ul>
             </li>
             <li>
-              <strong className="mb-2 block">
-                Professional Development
-              </strong>
+              <strong className="mb-2 block">Professional Development</strong>
               <ul className="ml-4 list-inside list-disc">
                 <li>
-                  Affiliate Summit East 2024 in NYC - Attended leading industry conference in New York focused on performance marketing, networking, and digital innovation
+                  Affiliate Summit East 2024 in NYC - Attended leading industry
+                  conference in New York focused on performance marketing,
+                  networking, and digital innovation
                 </li>
               </ul>
             </li>
             <li>
-              <strong className="mb-2 block">
-                Creative Initiatives
-              </strong>
+              <strong className="mb-2 block">Creative Initiatives</strong>
               <ul className="ml-4 list-inside list-disc">
                 <li>
-                  Co-developed the design of branded corporate New Year gifts for
-                  employees (2024–2025)
+                  Co-developed the design of branded corporate New Year gifts
+                  for employees (2024–2025)
                 </li>
                 <li>
-                  One of the winners of the Telegram GIF Contest 2022, awarded with a cash prize
+                  One of the winners of the Telegram GIF Contest 2022, awarded
+                  with a cash prize
                 </li>
               </ul>
             </li>
