@@ -58,19 +58,10 @@ function ContactButtons({ contact, personalWebsiteUrl }: ContactButtonsProps) {
       role="list"
       aria-label="Contact links"
     >
-      {personalWebsiteUrl && (
-        <SocialButton
-          href={personalWebsiteUrl}
-          icon={GlobeIcon}
-          label="Personal website"
-        />
-      )}
       {contact.email && (
-        <SocialButton
-          href={`mailto:${contact.email}`}
-          icon={MailIcon}
-          label="Email"
-        />
+        <a href={`mailto:${contact.email}`}>
+          {contact.email}
+        </a>
       )}
       {/* social links */}
     </div>
