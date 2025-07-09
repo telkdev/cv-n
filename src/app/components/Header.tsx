@@ -54,7 +54,7 @@ interface ContactButtonsProps {
 function ContactButtons({ contact, personalWebsiteUrl }: ContactButtonsProps) {
   return (
     <div
-      className="flex gap-x-1 pt-1 font-mono text-sm text-foreground/80 print:hidden"
+      className="flex gap-x-1 pt-1 font-mono text-sm text-foreground/80"
       role="list"
       aria-label="Contact links"
     >
